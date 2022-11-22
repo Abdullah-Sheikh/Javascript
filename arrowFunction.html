@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <p id="fun_1"></p>
+    
+    <script>
+
+        // arrwo functions
+
+        let myFunction = (a, b) => a*b;
+        document.getElementById("fun_1").innerHTML = `Arrow function \n   ${myFunction(2,3)}`
+
+        // without arrow
+
+        hello = function (){
+            return "Hello World"
+        }
+
+        // with the arrow 
+
+        Hello  = () =>{
+            return "Hello World"
+        }
+
+
+
+
+    </script>
+</body>
+</html>
